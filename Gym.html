@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitnessstudio</title>
+    <link rel="stylesheet" href="style.css" href="style2.css">
+ </head>
+<body>
+    <h1 style="background-color: black; border: 2px solid  rgb(255, 255, 255); color: rgb(255, 255, 255);">the most popular gyms in Nürnberg</h1>
+    <p>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/013/146/831/small/body-builder-lifting-a-dumbbell-png.png" style="height: 250px; width: 250px;">
+        <h5>Made by Nour Mohamad</h5>
+    </p>
+    <div class="container">
+        <a class="a1" href="https://www.fit-one.de/nuernberg.html">Fit/one</a>
+        <a class="a2" href="https://www.mcfit.com/studio/nuernberg-doos">McFit</a>
+        <a class="a3" href="https://www.fitx.de/fitnessstudios/nuernberg-maxfeld">FitX</a>    
+        <a class="a4" href="https://www.clever-fit.com/de/fitnessstudio/nuernberg-sued/">Clever Fit</a>
+        <a class="a5" href="https://www.fit-star.de/fitnessstudio/nuernberg-zentrum">Fit Star</a>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const bodyElement = document.body;
+            const transitionValue = 'background 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55)';
+            bodyElement.style.transition = transitionValue;
+
+            function setBackground(url) {
+                bodyElement.style.background = `url("${url}")`;
+                bodyElement.style.backgroundSize = '2050px 1150px';
+                bodyElement.style.backgroundPosition = 'center';
+            }
+
+            document.querySelector('.a1').addEventListener('mouseover', function () {
+                setBackground('https://mo-studio.de/wp-content/uploads/2020/05/fit-one-ingolstadt-12-1800x1080.jpg');
+            });
+
+            document.querySelector('.a1').addEventListener('mouseout', function () {
+                setBackground('https://wallpapercave.com/wp/wp5885717.jpg');
+            });
+
+            document.querySelector('.a2').addEventListener('mouseover', function () {
+                setBackground('https://rsggroup.com/wp-content/uploads/2023/05/rsg-group-brands-mcfit-internationalitaet-carousel-deutschland-hannover-01.webp');
+            });
+
+            document.querySelector('.a2').addEventListener('mouseout', function () {
+                setBackground('https://wallpapercave.com/wp/wp5885717.jpg');
+            });
+            document.querySelector('.a3').addEventListener('mouseover', function () {
+                setBackground('https://cache.pressmailing.net/content/d2761a4b-3bc0-4093-8c5b-0d7c482fe7ca/FitX%20Fitnessstudio%20M~_Hantelscheiben.jpg');
+            });
+
+            document.querySelector('.a3').addEventListener('mouseout', function () {
+                setBackground('https://wallpapercave.com/wp/wp5885717.jpg');
+            });
+
+            document.querySelector('.a4').addEventListener('mouseover', function () {
+                setBackground('https://www.clever-fit.com/app/uploads/2022/10/DSC05819-scaled.jpg');
+            });
+
+            document.querySelector('.a4').addEventListener('mouseout', function () {
+                setBackground('https://wallpapercave.com/wp/wp5885717.jpg');
+            });
+            document.querySelector('.a5').addEventListener('mouseover', function () {
+                setBackground('https://lh3.googleusercontent.com/p/AF1QipO1di-bZojqVvJq6-VS34GUBA4vyxM66dVKTEO-=s1360-w1360-h1020-rw');
+            });
+
+            document.querySelector('.a5').addEventListener('mouseout', function () {
+                setBackground('https://wallpapercave.com/wp/wp5885717.jpg');
+            });
+
+        
+
+});
+    </script>
+</body>
+</html>

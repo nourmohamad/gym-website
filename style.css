@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.a1 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(6, 119, 25);
+    padding: 10px 30px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.a1:hover {
+    transition-delay: 0s, 0.5s;
+    color: #fff;
+    box-shadow:
+        0 0 20px rgb(6, 119, 25),
+        0 0 30px rgb(6, 119, 25),
+        0 0 50px rgb(6, 119, 25),
+        0 0 90px rgb(6, 119, 25),
+        0 0 170px rgb(6, 119, 25);
+      
+}
+
+.a1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    background: rgb(6, 119, 25);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.a1:hover:before {
+    width: 125%;
+}
+.a1 { 
+    color: rgb(9, 147, 32);
+    background-color: rgb(0, 0, 0);
+}
+
+.a2 { 
+    color: gold;
+    background-color: rgb(0, 0, 0);
+}
+.a2 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid gold;
+    padding: 10px 43px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.a2:hover {
+    transition-delay: 0s, 0.5s;
+    color: #ffffff;
+    box-shadow:
+        0 0 20px gold,
+        0 0 30px gold,
+        0 0 50px gold,
+        0 0 90px gold,
+        0 0 170px gold;
+}
+
+.a2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    background: gold;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.a2:hover:before {
+    width: 140%;
+
+}
+.a3 { 
+    color: orange;
+    background-color: rgb(0, 0, 0);
+}
+.a3 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid orange;
+    padding: 10px 57px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.a3:hover {
+    transition-delay: 0s, 0.5s;
+    color: #ffffff;
+    box-shadow:
+        0 0 20px orange,
+        0 0 30px orange,
+        0 0 50px orange,
+        0 0 90px orange,
+        0 0 170px orange;
+}
+
+.a3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    background: orange;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.a3:hover:before {
+    width: 140%;
+
+}
+.a4 { 
+    color: red;
+    background-color: rgb(0, 0, 0);
+}
+.a4 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid red;
+    padding: 10px 13px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.a4:hover {
+    transition-delay: 0s, 0.5s;
+    color: #ffffff;
+    box-shadow:
+        0 0 20px red,
+        0 0 30px red,
+        0 0 50px red,
+        0 0 90px red,
+        0 0 170px red;
+}
+
+.a4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    background: red;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.a4:hover:before {
+    width: 140%;
+
+}
+.a5 { 
+    color: rgb(207, 198, 13);
+    background-color: rgb(0, 0, 0);
+}
+.a5 {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    color: rgb(207, 198, 13);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(207, 198, 13);
+    padding: 10px 30px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.a5:hover {
+    transition-delay: 0s, 0.5s;
+    color: #ffffff;
+    box-shadow:
+        0 0 20px rgb(207, 198, 13),
+        0 0 30px rgb(207, 198, 13),
+        0 0 50px rgb(207, 198, 13),
+        0 0 90px rgb(207, 198, 13),
+        0 0 170px rgb(207, 198, 13);
+}
+
+.a5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    background: rgb(207, 198, 13);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+
+.a5:hover:before {
+    width: 140%;
+}
+@font-face {
+    font-family: gym;
+    src: url(Fonts/Granite-Bgvl.ttf);
+    
+    }
+   body {
+       background: url('https://wallpapercave.com/wp/wp5885717.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        margin: 0;
+        
+    
+       
+       ;
+    }
+    h1 {
+        padding : 10px 100px;
+        font-family: gym;
+        text-align: center;
+        color: #fff;
+        border-radius: 0%;
+        margin-top: 20px;
+    }
+     p {
+        padding: 10px 750px;
+        font-family: gym;
+        text-align: center;
+        color: white;
+        border-radius: 0%;
+        margin-top: 20px; 
+    }
+
+    h5 {
+        font-family: gym;
+        background-color: rgb(0, 0, 0);
+        color:  rgb(255, 255, 255);;
+        border: 2px solid  rgb(255, 255, 255);;
+        text-align: center;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px; 
+    }
+
+    .container a {
+        margin: 15px;
+    }
+   
